@@ -4,8 +4,9 @@ export const HeaderStyle = styled.header`
     /* border-bottom: 1px solid orange; */
     .inner {
         width: 1400px;
-        height: 120px;
+        height: 100px;
         position: relative;
+
         h1 {
             position: absolute;
             left: 0;
@@ -20,19 +21,20 @@ export const FooterStyle = styled.footer`
     width: 100%;
     .inner {
         width: 1400px;
-        height: 350px;
+        height: 180px;
         margin: auto;
-        padding: 55px 0;
+        padding: 15px 0;
+        font-size: 14px;
         .top {
             position: absolute;
             right: 5%;
-            top: -40px;
+            top: 0;
         }
         p {
             &:nth-of-type(1) {
                 border-bottom: 1px solid #d9d9d9;
-                padding-bottom: 30px;
-                margin-bottom: 30px;
+                padding: 15px 0;
+
                 a {
                     margin-right: 20px;
                 }
@@ -43,7 +45,7 @@ export const FooterStyle = styled.footer`
                 margin-right: 20px;
                 position: relative;
                 &:last-child {
-                    padding-top: 30px;
+                    padding: 15px 0;
                 }
             }
         }

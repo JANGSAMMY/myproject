@@ -6,7 +6,6 @@ const Content1 = () => {
         <Container>
             <PhotoConStyle>
                 <div className="inner">
-                    <h2>강아지 프로필</h2>
                     <PhotoList />
                 </div>
             </PhotoConStyle>

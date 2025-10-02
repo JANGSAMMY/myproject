@@ -13,12 +13,7 @@ export const PhotoStyle = styled.div`
 export const PhotoConStyle = styled.div`
     width: 100%;
     text-align: center;
-    h2 {
-        font-size: 30px;
-        margin-bottom: 30px;
-        font-weight: 600;
-        color: brown;
-    }
+
     .txt {
         display: flex;
         justify-content: space-between;
@@ -43,9 +38,13 @@ export const PhotoUl = styled.ul`
         margin-bottom: 24px;
         transition: 0.2s ease-in-out;
         h3 {
-            font-size: 25px;
+            /* font-size: 25px;
             font-weight: 600;
-            margin-bottom: 15px;
+            margin-bottom: 15px; */
+            font-size: 30px;
+            margin-bottom: 30px;
+            font-weight: 600;
+            color: brown;
         }
         p {
             font-size: 18px;

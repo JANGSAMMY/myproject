@@ -20,13 +20,14 @@ export const BoardConStyle = styled.div`
         color: brown;
     }
     .tables {
-        border: 1px solid orange;
-        background: orange;
+        border: 1px solid #222222;
+        background-color: rgb(255, 153, 0);
         tr {
             text-align: center;
             th {
                 padding: 15px 0;
-                color: #fff;
+                color: #222222;
+                font-weight: 600;
             }
         }
     }
@@ -42,7 +43,7 @@ export const BoardConStyle = styled.div`
         }
 
         th {
-            background-color: orange;
+            background-color: #333;
             font-weight: bold;
         }
 
@@ -66,9 +67,9 @@ export const PagingStyle = styled.p`
         margin-right: 20px;
         cursor: pointer;
         &:hover {
-            background-color: orange;
+            background-color: rgb(255, 153, 0);
             color: #fff;
-            border-color: orange;
+            border-color: #dcdcdc;
         }
         &.on {
             background: #fff;

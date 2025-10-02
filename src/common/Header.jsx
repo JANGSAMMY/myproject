@@ -8,7 +8,7 @@ const Header = () => {
             <InnerStyle className="inner">
                 <h1>
                     <Link to="/">
-                        <img src="./logo.png" alt="" />
+                        <img src="./dog.png" alt="" style={{ width: '300px' }} />
                     </Link>
                 </h1>
                 <Nav />

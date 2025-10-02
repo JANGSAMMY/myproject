@@ -15,10 +15,6 @@ export const DetailStyle = styled.article`
     .inner {
         padding: 120px 0;
     }
-    h2 {
-        padding-bottom: 50px;
-        text-align: center;
-    }
 
     .con-box {
         display: flex;
